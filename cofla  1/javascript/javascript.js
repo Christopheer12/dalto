@@ -13,6 +13,7 @@ else if(dineroCofla ==1.6){
     alert(`comprate el heladix cofla`)
 }
 
+
 else if (dineroCofla >=1.7 && dineroCofla <=2.8){
     alert(`comprate helardo cofla`)
 }
