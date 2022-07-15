@@ -2,23 +2,30 @@ dineroCofla = prompt("cuanto dinero tienes cofla");
 dineroRoberto = prompt("cuanto dinero tienes Roberto");
 dineroPedro = prompt("cuanto dinero tienes Pedro");
 
+dineroCofla = parseInt(dineroCofla);
+
 if(dineroCofla >= 0.6 && dineroCofla <1){
-    alert(`comprate el de agua cofla`)
+    alert(`comprate el de agua cofla`);
+    alert("y te sobran" + (dineroCofla - 0.6));
 }
 
 else if(dineroCofla >= 1 && dineroCofla <=1.5){
     alert(`comnprate el de crema cofla`)
+    alert("y te sobran" + (dineroCofla - 1.5));
 }
 else if(dineroCofla ==1.6){
     alert(`comprate el heladix cofla`)
+    alert("y te sobran" + (dineroCofla - 1.6));
 }
 
 
 else if (dineroCofla >=1.7 && dineroCofla <=2.8){
     alert(`comprate helardo cofla`)
+    alert("y te sobran" + (dineroCofla - 2.8));
 }
 else if (dineroCofla >= 2.9){
     alert(`puedes comprar 1/4 de helado o un pote con confites cofla`)
+    alert("y te sobran" + (dineroCofla - 2.9));
 }
 
 
@@ -58,6 +65,9 @@ else if (dineroPedro >=1.7 && dineroPedro <=2.8){
 }
 else if (dineroPedro >= 2.9){
     alert(`puedes comprar 1/4 de helado o un pote con confites roberto`)
+}
+else{
+    alert("no podes comprar nada")
 }
 
 
