@@ -6,7 +6,6 @@ if(dineroCofla >= 0.6 && dineroCofla <1){
     alert(`comprate el de agua cofla`)
 }
 
-
 else if(dineroCofla >= 1 && dineroCofla <=1.5){
     alert(`comnprate el de crema cofla`)
 }
