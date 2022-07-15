@@ -21,6 +21,7 @@ else if (dineroCofla >= 2.9){
 }
 
 
+
 if(dineroRoberto >= 0.6 && dineroRoberto <1){
     alert(`comprate el de agua roberto`)
 }
